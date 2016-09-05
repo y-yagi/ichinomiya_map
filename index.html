@@ -186,11 +186,6 @@
             .each(transform)
             .attr("class", "marker");
 
-          // marker.append("svg:circle")
-          //   .attr("r", 5.5)
-          //   .attr("cx", padding)
-          //   .attr("cy", padding);
-
           marker.append("svg:path").attr("d", lineFunction(line1)).attr("stroke", "red").attr("stroke-width", 2);
           marker.append("svg:path").attr("d", lineFunction(line2)).attr("stroke", "red").attr("stroke-width", 2);
           marker.append("svg:path").attr("d", lineFunction(line3)).attr("stroke", "red").attr("stroke-width", 2);
