@@ -1,0 +1,15 @@
+{
+  "name": "Ichinomiya Map",
+  "short_name": "ichinomiya",
+  "icons": [{
+    "src": "images/icon-96.png",
+    "sizes": "96x96"
+  }, {
+    "src": "images/icon-192.png",
+    "sizes": "192x192"
+  }],
+  "start_url": "https://y-yagi.github.io/ichinomiya_map/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone"
+}
