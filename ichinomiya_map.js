@@ -157,7 +157,7 @@ function initialize() {
         .attr("x", padding + 9)
         .attr("y", padding)
         .attr("dy", ".31em")
-        .text(function(d) { return d.value.name + "\n" + "(" + d.value.name + ")"; });
+        .text(function(d) { return d.value.name + "<br>" + "(" + d.value.name + ")"; });
 
       function transform(d) {
         d = projection.fromLatLngToDivPixel(d.value.position);
